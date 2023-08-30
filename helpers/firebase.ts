@@ -9,12 +9,12 @@ import { getDatabase } from "firebase/database";
 const firebaseConfig = {
   apiKey: "AIzaSyCd2Celm4Pndqd1vkVeqov3uRAoRr7rY4M",
   authDomain: "realtime-logs-b7109.firebaseapp.com",
+  databaseURL: "https://realtime-logs-b7109-default-rtdb.firebaseio.com",
   projectId: "realtime-logs-b7109",
   storageBucket: "realtime-logs-b7109.appspot.com",
   messagingSenderId: "505992893583",
   appId: "1:505992893583:web:375dab689490d8f3690cfa",
-  measurementId: "G-K2W2EJP24K",
-  databaseURL: "https://realtime-logs-b7109-default-rtdb.firebaseio.com/"
+  measurementId: "G-K2W2EJP24K"
 };
 
 // Initialize Firebase
